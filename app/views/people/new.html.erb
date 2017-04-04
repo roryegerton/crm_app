@@ -1,0 +1,15 @@
+<h1>People#new</h1>
+<p>Find me in app/views/people/new.html.erb</p>
+
+
+<%= simple_form_for @person do |f| %>
+  <%= f.input :firstname %>
+  <%= f.input :surname %>
+  <%= f.input :dob %>
+  <%= f.input :pps %>
+  <%= f.input :address1 %>
+  <%= f.input :address2 %>
+  <%= f.input :email %>
+  <%= f.input :telephone %>
+  <%= f.button :submit %>
+<% end %>
